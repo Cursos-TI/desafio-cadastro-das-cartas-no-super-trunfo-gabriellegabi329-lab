@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
-    int códigocidade = 01,02,03,04
-    char nome;
+    int códigocidade = 4;
+    char nome 
     float população;
     float area;
     float PIB;
