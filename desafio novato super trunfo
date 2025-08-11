@@ -1,5 +1,6 @@
-() {
-    int códigocidade = 01,02,03,04
+#include <stdio.h>
+int main() {
+    int códigocidade = 4;
     char nome;
     float população;
     float area;
