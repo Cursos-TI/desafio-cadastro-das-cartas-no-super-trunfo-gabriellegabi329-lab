@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main() {
   // Definição das variáveis para a carta 1
-  char estado1, cidade1;
-  int populacao1, pontos_turisticos1;
-  float area1, pib1;
+  char estado1 = A01, cidade1 = Brasilia;
+  int populacao1 = 13225000, pontos_turisticos1 = 10;
+  float area1 = 1521.12, pib1 = 130.23;
 
   // Definição das variáveis para a carta 2
-  char estado2, cidade2;
-  int populacao2, pontos_turisticos2;
-  float area2, pib2;
+  char estado2 = B02, cidade2 = Salvador;
+  int populacao2 = 5678900, pontos_turisticos2 = 18;
+  float area2 = 1200.56, pib2 = 500.32;
 
   // Cadastro da carta 1
   printf("Cadastro da Carta 1:\n");
@@ -44,16 +44,16 @@ int main() {
   printf("\nDados da Carta 1:\n");
   printf("Código: %c%c1\n", estado1, cidade1);
   printf("População: %d\n", populacao1);
-  printf("Área: %.2f km²\n", area1);
-  printf("PIB: %.2f milhões\n", pib1);
+  printf("Área: %.3f km²\n", area1);
+  printf("PIB: %.3f milhões\n", pib1);
   printf("Pontos Turísticos: %d\n", pontos_turisticos1);
 
   // Exibição dos dados da carta 2
   printf("\nDados da Carta 2:\n");
   printf("Código: %c%c1\n", estado2, cidade2);
   printf("População: %d\n", populacao2);
-  printf("Área: %.2f km²\n", area2);
-  printf("PIB: %.2f milhões\n", pib2);
+  printf("Área: %.3f km²\n", area2);
+  printf("PIB: %.3f milhões\n", pib2);
   printf("Pontos Turísticos: %d\n", pontos_turisticos2);
 
   return 0;
