@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main() {
   // Definição das variáveis para a carta 1
-  char estado1 = A01, cidade1 = Brasilia;
+  char estado1 = A01, cidade1 = 1;
   int populacao1 = 13225000, pontos_turisticos1 = 10;
   float area1 = 1521.12, pib1 = 130.23;
 
   // Definição das variáveis para a carta 2
-  char estado2 = B02, cidade2 = Salvador;
+  char estado2 = B02, cidade2 = 2;
   int populacao2 = 5678900, pontos_turisticos2 = 18;
   float area2 = 1200.56, pib2 = 500.32;
 
